@@ -1,6 +1,10 @@
-# ASP.NET Core 10 (8)
+# ASP.NET Core 10 (9)
 
 These samples require SDK [10-preview.4](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
+
+- [dotnet run](dotnet-run)
+
+  This is a sample code on how you can build an ASP.NET Core application using the new .NET 10 project-less `dotnet run xxx.cs` functionality.
 
 - [open-api-8](open-api-8)
 

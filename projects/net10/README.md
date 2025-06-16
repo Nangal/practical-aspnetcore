@@ -1,6 +1,6 @@
 # ASP.NET Core 10 (9)
 
-These samples require SDK [10-preview.4](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
+These samples require SDK [10-preview.5](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
 
 - [dotnet run](dotnet-run)
 

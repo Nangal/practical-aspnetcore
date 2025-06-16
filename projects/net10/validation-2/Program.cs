@@ -31,7 +31,6 @@ app.MapGet("/validate/{name}/{age}", ([AsParameters]RouteInput input) =>
 
 app.Run();
 
-[ValidatableType]
 public class RouteInput : IValidatableObject 
 {
     [Required]
@@ -45,7 +44,7 @@ public class RouteInput : IValidatableObject
         if (Name.Length > 10)
         {
             if (Age > 50)
-                yield return new ValidationResult("Age must be less than 50 when name is longer than 10 characters", [nameof(Name), nameof(Age)]);
+                yield return new ValidationResult("Age must be less than 50 when name is longer than 10 characters", [nameof(Age)]);
         }
     }
 }

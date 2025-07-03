@@ -22,6 +22,8 @@ app.MapGet("/", (IAntiforgery token, HttpContext context) =>
     <body>
         <main class="container">
         <h1>Server side validation</h1>
+        <p>This is just a demo that show how built-in validation works in [FromForm] scenario but it can't really be used
+        in a straight HTML serving scenario because right now there is no way to obtain the validation results.</p>
         <form method="post" action="/validate">
             <input type="hidden" name="__RequestVerificationToken" value="{token.GetAndStoreTokens(context).RequestToken}" />
             <fieldset>

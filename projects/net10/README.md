@@ -1,4 +1,4 @@
-# ASP.NET Core 10 (11)
+# ASP.NET Core 10 (12)
 
 These samples require SDK [10-preview.5](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
 
@@ -48,3 +48,7 @@ These samples require SDK [10-preview.5](https://dotnet.microsoft.com/en-us/down
 - [validation-2](validation-2)
 
   This time we implement `IValidatableObject` to implement custom validation logic. 
+
+- [validation-3](validation-3)
+  
+  This is a demo that show how built-in validation works in [FromForm] scenario but it can't really be used in a straight HTML serving scenario because right now there is no way to obtain the validation results.

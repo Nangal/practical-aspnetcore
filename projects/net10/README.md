@@ -1,4 +1,4 @@
-# ASP.NET Core 10 (9)
+# ASP.NET Core 10 (10)
 
 These samples require SDK [10-preview.5](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
 
@@ -13,6 +13,10 @@ These samples require SDK [10-preview.5](https://dotnet.microsoft.com/en-us/down
 - [open-api-9](open-api-9)
 
   This sample shows how to generate OpenAPI documentation YAML format.
+
+- [open-api-10](open-api-10)
+
+  This sample shows how to populate OpenAPI document responses information with XML doc comment `response` element.
 
 - [redirect-http-result-is-local-url](redirect-http-result-is-local-url)
 

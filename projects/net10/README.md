@@ -1,4 +1,4 @@
-# ASP.NET Core 10 (10)
+# ASP.NET Core 10 (11)
 
 These samples require SDK [10-preview.5](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
 
@@ -17,6 +17,10 @@ These samples require SDK [10-preview.5](https://dotnet.microsoft.com/en-us/down
 - [open-api-10](open-api-10)
 
   This sample shows how to populate OpenAPI document responses information with XML doc comment `response` element.
+
+- [open-api-11](open-api-11)
+
+  This sample shows how to populate OpenAPI document response 200 information with XML doc comment `returns` element.
 
 - [redirect-http-result-is-local-url](redirect-http-result-is-local-url)
 

@@ -1,16 +1,13 @@
+using Scalar.AspNetCore;
+
 var builder = WebApplication.CreateBuilder();
 
 builder.Services.AddOpenApi();
-builder.Services.AddOpenApiDocument();
 
 var app = builder.Build();
 
 app.MapOpenApi();
-
-app.UseSwaggerUi(options =>
-{
-    options.DocumentPath = "/openapi/{documentName}.json";
-});
+app.MapScalarApiReference();
 
 app.MapGet("/", () =>
 {
@@ -23,7 +20,7 @@ app.MapGet("/", () =>
                 You can check the generated OpenAPI document <a href="/openapi/v1.json">here</a>.
             </li>
             <li>
-                You can check the Swagger UI <a href="/swagger/index.html">here</a>.
+                You can check the Scalar UI <a href="/scalar">here</a>.
             </li>
     </body>
     </html>

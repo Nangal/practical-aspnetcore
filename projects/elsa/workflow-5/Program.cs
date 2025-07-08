@@ -1,15 +1,15 @@
 using Elsa.Extensions;
 using Elsa.Workflows;
 using Elsa.Workflows.Activities;
-
 using Elsa.Workflows.Memory;
 
-var services = new ServiceCollection();
-services.AddElsa();
+var builder = Host.CreateApplicationBuilder(args);
+builder.Services.AddElsa();
 
-var serviceProvider = services.BuildServiceProvider();
-var runner = serviceProvider.GetRequiredService<IWorkflowRunner>();
+var app = builder.Build();
 
+// Use the service provider from the host
+var runner = app.Services.GetRequiredService<IWorkflowRunner>();
 await runner.RunAsync(new ConstructorWorkflow("Anne", 37));
 
 public class ConstructorWorkflow : WorkflowBase
@@ -19,8 +19,8 @@ public class ConstructorWorkflow : WorkflowBase
 
     public ConstructorWorkflow(string name, int age)
     {
-        _name = new Variable<string>(name);
-        _age = new Variable<int>(age);
+        _name = new Variable<string>("name", name);
+        _age = new Variable<int>("age", age);
     }
 
     protected override void Build(IWorkflowBuilder builder)

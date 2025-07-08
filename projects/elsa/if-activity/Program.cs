@@ -10,8 +10,7 @@ services.AddElsa();
 var serviceProvider = services.BuildServiceProvider();
 var runner = serviceProvider.GetRequiredService<IWorkflowRunner>();
 
-var money = new Variable<int>("money", 0);
-money.Value = 200;
+var money = new Variable<int>("money", 200);
 
 var workflow = new Sequence{
     Variables = { money },

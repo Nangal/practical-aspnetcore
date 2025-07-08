@@ -11,8 +11,7 @@ services.AddElsa();
 var serviceProvider = services.BuildServiceProvider();
 var runner = serviceProvider.GetRequiredService<IWorkflowRunner>();
 
-var counter = new Variable<int>("counter", 0);
-counter.Value = 1;
+var counter = new Variable<int>("counter", 1);
 
 var workflow = new Sequence
 {

@@ -9,8 +9,7 @@ services.AddElsa();
 var serviceProvider = services.BuildServiceProvider();
 var runner = serviceProvider.GetRequiredService<IWorkflowRunner>();
 
-var message = new Variable<string>("message");
-message.Value = "message";
+var message = new Variable<string>("message", "Hello world!");
 
 var workflow = new Sequence{
     Variables = { message },

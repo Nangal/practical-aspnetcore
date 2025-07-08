@@ -8,7 +8,7 @@ var services = new ServiceCollection();
 services.AddElsa();
 
 var input = new Input<string>("What is your name");
-var name = new Variable<string>("name");
+var name = new Variable<string>("name", string.Empty);
 
 var serviceProvider = services.BuildServiceProvider();
 var workflow = new Sequence 
@@ -19,7 +19,7 @@ var workflow = new Sequence
     },
     Activities = 
     {
-        new WriteLine(context => input.Get(context)),
+        new WriteLine("What is your name?"),
         new ReadLine(name),
         new WriteLine(ctx => "My name is " + name.Get(ctx))
     }    

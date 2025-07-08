@@ -11,8 +11,8 @@ var runner = serviceProvider.GetRequiredService<IWorkflowRunner>();
 
 var magicNumber = new Variable<int>("magic-number", 0);
 
-var msg1 = new Variable<string>("msg1");
-var msg2 = new Variable<string>("msg2");
+var msg1 = new Variable<string>("msg1", string.Empty);
+var msg2 = new Variable<string>("msg2", string.Empty);
 
 var workflow = new Sequence
 {

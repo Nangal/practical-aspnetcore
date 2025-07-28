@@ -1,5 +1,5 @@
 #:sdk Microsoft.NET.Sdk.Web
-#:package markdig 0.41.1
+#:package markdig@0.41.1
 using Markdig;
 
 var builder = WebApplication.CreateBuilder(args);

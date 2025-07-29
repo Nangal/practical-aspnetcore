@@ -1,7 +1,6 @@
-# Datastar (2)
+# Datastar (3)
 
 The following samples show how to use [Datastar](https://data-star.dev/) hypermedia framework using .NET 10 and [pico](https://picocss.com) CSS framework.
-
 
 * [Hello World](hello-world)
   
@@ -10,3 +9,7 @@ The following samples show how to use [Datastar](https://data-star.dev/) hyperme
 * [Backend SSE patch-signals](backend-patch-signals)
 
   This sample demonstrates how the backend can patch signals through SSE and how the UI reacts with it. The sample adds 3 seconds delays on the SSE response so the changes on the UI is visible.   
+
+* [Backend SSE patch-signals](backend-patch-signals-2)
+
+  Similar to previous sample except this time we add an extra signal and did not initialize any of the them.

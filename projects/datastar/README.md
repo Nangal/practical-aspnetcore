@@ -10,6 +10,6 @@ The following samples show how to use [Datastar](https://data-star.dev/) hyperme
 
   This sample demonstrates how the backend can patch signals through SSE and how the UI reacts with it. The sample adds 3 seconds delays on the SSE response so the changes on the UI is visible.   
 
-* [Backend SSE patch-signals](backend-patch-signals-2)
+* [Backend SSE patch-signals 2](backend-patch-signals-2)
 
   Similar to previous sample except this time we add an extra signal and did not initialize any of the them.

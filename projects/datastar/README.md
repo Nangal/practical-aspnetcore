@@ -1,4 +1,4 @@
-# Datastar (4)
+# Datastar (5)
 
 The following samples show how to use [Datastar](https://data-star.dev/) hypermedia framework using .NET 10 and [pico](https://picocss.com) CSS framework.
 
@@ -17,3 +17,7 @@ The following samples show how to use [Datastar](https://data-star.dev/) hyperme
 * [Backend SSE patch-signals 3](backend-patch-signals-3)
 
   This sample shows how to use `filterSignals` option to only send specific signals to the backend.
+
+* [Backend SSE patch-signals 3](backend-patch-signals-4)
+
+  This sample shows the backend add one extra signal to be used for later action at the UI.

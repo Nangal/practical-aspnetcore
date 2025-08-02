@@ -1,4 +1,4 @@
-# Datastar (5)
+# Datastar (6)
 
 The following samples show how to use [Datastar](https://data-star.dev/) hypermedia framework using .NET 10 and [pico](https://picocss.com) CSS framework.
 
@@ -21,3 +21,7 @@ The following samples show how to use [Datastar](https://data-star.dev/) hyperme
 * [Backend SSE patch-signals 3](backend-patch-signals-4)
 
   This sample shows the backend add one extra signal to be used for later action at the UI.
+
+* [data-attr](data-attr)
+
+  This example shows how to use `data-attr` to set HTML attribute to an expression. This sample demonstrates the usage of direct value expression and also signal expression.

@@ -7,3 +7,5 @@ dotnet build data-attr
 dotnet build data-bind
 dotnet build data-class
 dotnet build data-compute
+dotnet build data-effect
+dotnet build data-click

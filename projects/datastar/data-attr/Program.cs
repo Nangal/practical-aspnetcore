@@ -20,6 +20,7 @@ app.MapGet("/", async context =>
             <div class="grid">
                 <div><button data-text="$btn1"></button></div>
                 <div><button data-attr-disabled="$btn2">Disabled Button</button></div>
+                <div data-attr="{ width: '50px',  height:'50px', style:'border:1px solid red;' }"></div>
             </div>
             <br/>
             <h3>All signals on this page</h3>

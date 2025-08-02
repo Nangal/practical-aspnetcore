@@ -24,4 +24,4 @@ The following samples show how to use [Datastar](https://data-star.dev/) hyperme
 
 * [data-attr](data-attr)
 
-  This example shows how to use `data-attr` to set HTML attribute to an expression. This sample demonstrates the usage of direct value expression and also signal expression.
+  This example shows how to use `data-attr` to set HTML attribute to an expression. This sample demonstrates the usage of direct value, object and also signal expression.

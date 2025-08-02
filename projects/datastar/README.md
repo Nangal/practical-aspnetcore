@@ -1,4 +1,4 @@
-# Datastar (6)
+# Datastar (7)
 
 The following samples show how to use [Datastar](https://data-star.dev/) hypermedia framework using .NET 10 and [pico](https://picocss.com) CSS framework.
 
@@ -25,3 +25,7 @@ The following samples show how to use [Datastar](https://data-star.dev/) hyperme
 * [data-attr](data-attr)
 
   This example shows how to use `data-attr` to set HTML attribute to an expression. This sample demonstrates the usage of direct value, object and also signal expression.
+
+* [data-attr](data-bind)
+
+  This sample shows how to use `data-bind` to bind input (text, textarea, select, radio, checkbox, range) values to signals.

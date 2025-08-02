@@ -5,3 +5,4 @@ dotnet build backend-patch-signals-3
 dotnet build backend-patch-signals-4
 dotnet build data-attr
 dotnet build data-bind
+dotnet build data-class

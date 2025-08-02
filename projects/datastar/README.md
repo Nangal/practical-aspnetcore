@@ -1,4 +1,4 @@
-# Datastar (7)
+# Datastar (8)
 
 The following samples show how to use [Datastar](https://data-star.dev/) hypermedia framework using .NET 10 and [pico](https://picocss.com) CSS framework.
 
@@ -29,3 +29,7 @@ The following samples show how to use [Datastar](https://data-star.dev/) hyperme
 * [data-bind](data-bind)
 
   This sample shows how to use `data-bind` to bind input (text, textarea, select, radio, checkbox, range) values to signals.
+
+* [data-class](data-class)
+
+  This example shows how to add or remove a class to or from an element based on an expression using `data-class`.

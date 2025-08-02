@@ -10,10 +10,12 @@ app.MapGet("/", async context =>
           <script type="module" src="https://cdn.jsdelivr.net/gh/starfederation/datastar@main/bundles/datastar.js"></script>
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
         </head>
-        <body data-class-container="$container" data-class-container-fluid="$containerFluid" data-signals="{ container : true, containerFluid : false }">
-            <h1>data-class</h1>
+        <body class="container" data-signals="{ first : 1, second : 1}">
+            <h1 data-computed-total = "$first + $second">data-computed</h1>
+            <div data-text="$total"></div>
+            <br />
             <div class="grid">
-                <div><button data-on-click="$container = $container  ? false : true; $containerFluid = !$container;">Change Layout</button></div>
+                <div><button data-on-click="$second++">Increment</button></div>
             </div>
             <br/>
             <h3>All signals on this page</h3>

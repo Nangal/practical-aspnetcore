@@ -1,4 +1,4 @@
-# Datastar (8)
+# Datastar (9)
 
 The following samples show how to use [Datastar](https://data-star.dev/) hypermedia framework using .NET 10 and [pico](https://picocss.com) CSS framework.
 
@@ -33,3 +33,7 @@ The following samples show how to use [Datastar](https://data-star.dev/) hyperme
 * [data-class](data-class)
 
   This example shows how to add or remove a class to or from an element based on an expression using `data-class`.
+
+* [data-compute](data-compute)
+
+  This example shows to create a read only signal that is computed based on expression.

@@ -1,4 +1,4 @@
-# Datastar (9)
+# Datastar (10)
 
 The following samples show how to use [Datastar](https://data-star.dev/) hypermedia framework using .NET 10 and [pico](https://picocss.com) CSS framework.
 
@@ -37,3 +37,7 @@ The following samples show how to use [Datastar](https://data-star.dev/) hyperme
 * [data-compute](data-compute)
 
   This example shows to create a read only signal that is computed based on expression.
+
+* [data-effect](data-effect)
+
+  This example shows to use `data-effect` to update other signals or perform operations.

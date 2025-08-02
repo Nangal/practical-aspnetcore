@@ -26,6 +26,6 @@ The following samples show how to use [Datastar](https://data-star.dev/) hyperme
 
   This example shows how to use `data-attr` to set HTML attribute to an expression. This sample demonstrates the usage of direct value, object and also signal expression.
 
-* [data-attr](data-bind)
+* [data-bind](data-bind)
 
   This sample shows how to use `data-bind` to bind input (text, textarea, select, radio, checkbox, range) values to signals.

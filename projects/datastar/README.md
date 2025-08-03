@@ -1,4 +1,4 @@
-# Datastar (12)
+# Datastar (13)
 
 The following samples show how to use [Datastar](https://data-star.dev/) hypermedia framework using .NET 10 and [pico](https://picocss.com) CSS framework.
 
@@ -49,3 +49,7 @@ The following samples show how to use [Datastar](https://data-star.dev/) hyperme
 * [data-on-custom-event](data-on-custom-event)
 
   This example shows to use `data-on-{custom-event}` to handle custom even on three different occasion, local event, bubbling event, and event handle attached to `window`.
+
+* [data-on-interval](data-on-interval)
+
+  This example shows to use `data-on-interval` to run expression at regular time. It defaults to one second.

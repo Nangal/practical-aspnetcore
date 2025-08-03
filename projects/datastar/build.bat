@@ -10,3 +10,4 @@ dotnet build data-compute
 dotnet build data-effect
 dotnet build data-on-click
 dotnet build data-on-custom-event
+dotnet build data-on-interval

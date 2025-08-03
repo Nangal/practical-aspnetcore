@@ -1,4 +1,4 @@
-# Datastar (13)
+# Datastar (14)
 
 The following samples show how to use [Datastar](https://data-star.dev/) hypermedia framework using .NET 10 and [pico](https://picocss.com) CSS framework.
 
@@ -53,3 +53,7 @@ The following samples show how to use [Datastar](https://data-star.dev/) hyperme
 * [data-on-interval](data-on-interval)
 
   This example shows to use `data-on-interval` to run expression at regular time. It defaults to one second.
+
+* [data-show](data-show)
+
+  This example shows to use `data-show` to run expression to hide or show an element. 

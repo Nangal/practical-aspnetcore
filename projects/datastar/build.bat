@@ -8,4 +8,5 @@ dotnet build data-bind
 dotnet build data-class
 dotnet build data-compute
 dotnet build data-effect
-dotnet build data-click
+dotnet build data-on-click
+dotnet build data-on-custom-event

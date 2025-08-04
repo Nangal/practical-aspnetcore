@@ -1,4 +1,4 @@
-# Datastar (14)
+# Datastar (15)
 
 The following samples show how to use [Datastar](https://data-star.dev/) hypermedia framework using .NET 10 and [pico](https://picocss.com) CSS framework.
 
@@ -57,3 +57,7 @@ The following samples show how to use [Datastar](https://data-star.dev/) hyperme
 * [data-show](data-show)
 
   This example shows to use `data-show` to run expression to hide or show an element. 
+
+* [data-style](data-style)
+
+  This example shows how to set inline CSS style using `data-style`.

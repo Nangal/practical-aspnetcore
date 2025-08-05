@@ -1,4 +1,4 @@
-# Datastar (19)
+# Datastar (20)
 
 The following samples show how to use [Datastar](https://data-star.dev/) hypermedia framework using .NET 10 and [pico](https://picocss.com) CSS framework.
 
@@ -77,3 +77,7 @@ The following samples show how to use [Datastar](https://data-star.dev/) hyperme
 * [data-ignore](data-ignore)
 
   This example shows to use `data-ignore` to tell Datastar to skip an element and its descendants. 
+
+* [data-ref](data-ref)
+
+  This example shows to use `data-ref` to obtain a reference to the [HTML element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) itself.

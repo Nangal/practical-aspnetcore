@@ -1,4 +1,4 @@
-# Datastar (15)
+# Datastar (16)
 
 The following samples show how to use [Datastar](https://data-star.dev/) hypermedia framework using .NET 10 and [pico](https://picocss.com) CSS framework.
 
@@ -61,3 +61,7 @@ The following samples show how to use [Datastar](https://data-star.dev/) hyperme
 * [data-style](data-style)
 
   This example shows how to set inline CSS style using `data-style`.
+
+* [data-indicator](data-indicator)
+  
+  This sample shows how to use `data-indicator` to create a singal set to `true` while an SSE request is in flight.

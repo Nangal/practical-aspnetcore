@@ -13,3 +13,4 @@ dotnet build data-on-custom-event
 dotnet build data-on-interval
 dotnet build data-show
 dotnet build data-style 
+dotnet build data-indicator

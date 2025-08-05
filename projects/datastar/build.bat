@@ -16,3 +16,4 @@ dotnet build data-style
 dotnet build data-indicator
 dotnet build data-on-signal-patch
 dotnet build data-on-signal-patch-filter
+dotnet build data-ignore 

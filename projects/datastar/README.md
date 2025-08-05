@@ -1,4 +1,4 @@
-# Datastar (18)
+# Datastar (19)
 
 The following samples show how to use [Datastar](https://data-star.dev/) hypermedia framework using .NET 10 and [pico](https://picocss.com) CSS framework.
 
@@ -73,3 +73,7 @@ The following samples show how to use [Datastar](https://data-star.dev/) hyperme
 * [data-on-signal-patch-filter](data-on-signal-patch-filter)
 
   This sample shows how to use `data-on-signal-patch-filter` together with `data-on-signal-patch` to run an expression whether one or more **specific** signal patched. `patch` variable is available and contains the details of the patched signals.
+
+* [data-ignore](data-ignore)
+
+  This example shows to use `data-ignore` to tell Datastar to skip an element and its descendants. 

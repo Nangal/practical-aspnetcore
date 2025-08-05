@@ -7,7 +7,7 @@ Greetings from Cairo, Egypt. You can [sponsor](https://github.com/sponsors/dodyg
 
 ## ASP.NET Core 10
 
-You can find samples on new features availabel in ASP.NET Core 10 Preview 5(12) [here](/projects/net10). Datastar examples (18) can be found [here](/projects/datastar).
+You can find samples on new features availabel in ASP.NET Core 10 Preview 5(12) [here](/projects/net10). Datastar examples (19) can be found [here](/projects/datastar).
 
 ## ASP.NET Core 9
 
@@ -24,7 +24,6 @@ You can find samples on new features availabel in ASP.NET Core 9(3) [here](/proj
 - [Official .NET Aspire samples](https://github.com/dotnet/aspire-samples).
 - For Data Access samples, go to the excellent [ORM Cookbook](https://github.com/Grauenwolf/DotNet-ORM-Cookbook).
 - .NET team also has [a sample repository](https://github.com/dotnet/samples).
-
 
 ## Sections
 

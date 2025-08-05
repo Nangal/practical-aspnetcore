@@ -14,3 +14,4 @@ dotnet build data-on-interval
 dotnet build data-show
 dotnet build data-style 
 dotnet build data-indicator
+dotnet build data-signal-patch

@@ -1,4 +1,4 @@
-# Datastar (16)
+# Datastar (17)
 
 The following samples show how to use [Datastar](https://data-star.dev/) hypermedia framework using .NET 10 and [pico](https://picocss.com) CSS framework.
 
@@ -65,3 +65,7 @@ The following samples show how to use [Datastar](https://data-star.dev/) hyperme
 * [data-indicator](data-indicator)
   
   This sample shows how to use `data-indicator` to create a singal set to `true` while an SSE request is in flight.
+
+* [data-on-signal-patch](data-on-signal-patch)
+  
+  This sample shows how to use `data-on-signal-patch` to run an expression whether one or more signals are patched. `patch` variable is available and contains the details of the patched signals.

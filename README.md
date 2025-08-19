@@ -1,8 +1,5 @@
 # Samples for ASP.NET Core 8.0 
 
-> [!NOTE]
-> This repository is WIP. I am updating all the previous samples from .NET 6/7 to .NET 8. Check the previous stable branch ([6.0](https://github.com/dodyg/practical-aspnetcore/tree/net6.0/)) if you want to browse the existing stable samples that contains also .NET 7/8 samples.
-
 Greetings from Cairo, Egypt. You can [sponsor](https://github.com/sponsors/dodyg) this project [here](https://github.com/sponsors/dodyg). 
 
 ## ASP.NET Core 10
